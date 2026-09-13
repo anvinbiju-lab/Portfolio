@@ -29,7 +29,7 @@ function useCountUp(end: number, duration: number = 2000, trigger: boolean = fal
 }
 
 const STATS = [
-    { label: "Projects Built", value: 7, suffix: "+", href: "#projects" },
+    { label: "Projects Built", value: 8, suffix: "+", href: "#projects" },
     { label: "Certifications", value: 2, suffix: "", href: "#achievements" },
     { label: "National Hackathon", value: 1, suffix: "", href: "#achievements" },
     { label: "Languages", value: 3, suffix: "+", href: "#skills" },

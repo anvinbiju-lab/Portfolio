@@ -6,7 +6,8 @@ import {
     Shield, MousePointerClick, Users, Github,
     ChevronLeft, ChevronRight, X, ExternalLink,
     Bot, ShieldCheck, Lock, Wifi, Smartphone,
-    Globe, Monitor, Chrome, Zap, Star, ArrowUpRight
+    Globe, Monitor, Chrome, Zap, Star, ArrowUpRight,
+    TimerOff, Moon
 } from "lucide-react"
 import Image from "next/image"
 
@@ -91,6 +92,29 @@ const PROJECTS: Project[] = [
         platform: "android",
         status: "active",
         gradient: "from-cyan/20 via-cyan/5 to-transparent",
+    },
+    {
+        id: "lockin",
+        title: "Lock In",
+        subtitle: "Smart App Blocker, Habit & Sleep Tracker",
+        icon: <TimerOff size={22} className="text-rose-400" />,
+        iconBg: "bg-rose-400/10 border-rose-400/30",
+        date: "2026 – Present",
+        description:
+            "A privacy-focused Android digital wellbeing app that combines strict app blocking with daily usage limits, flexible habit tracking with streaks and calendar, sleep schedule monitoring, and comprehensive focus statistics — all in a cohesive Material 3 dark-themed experience.",
+        features: [
+            "Strict App Blocker: Daily usage limits, scheduled lockout windows, and a full-screen lockout overlay with a 5-minute emergency bypass countdown",
+            "Battery-Aware Monitor: Foreground service that intelligently sleeps when the screen is off to preserve battery life",
+            "Habit Tracker: Custom habits with color accents, monthly calendar grid, completion streaks, and WorkManager-powered interactive notifications (Complete / Skip from tray)",
+            "Sleep Tracker: One-tap sleep/wake logging, automatic sleep quality scoring with target deviation tracking, and Bedtime Focus integration",
+            "Focus Stats Dashboard: Screen time analytics, per-app usage progress bars, habit performance insights, and an emergency unlock audit log",
+        ],
+        tags: ["Kotlin", "Jetpack Compose", "Material 3", "MVVM", "Room DB", "WorkManager", "UsageStatsManager", "ForegroundService"],
+        github: "https://github.com/anvinbiju1-lab/LockIn",
+        theme: "cyan",
+        platform: "android",
+        status: "active",
+        gradient: "from-rose-500/20 via-rose-500/5 to-transparent",
     },
     {
         id: "jarvis-lite",
