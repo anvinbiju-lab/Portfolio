@@ -87,7 +87,7 @@ const jsonLd = {
     url: siteUrl,
     image: `${siteUrl}/anvin-biju-cybersecurity-engineer.png`,
     sameAs: [
-        'https://github.com/anvinbiju1-lab',
+        'https://github.com/anvinbiju-lab',
         'https://www.linkedin.com/in/anvin-biju',
     ],
     knowsAbout: [

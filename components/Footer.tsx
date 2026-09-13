@@ -14,7 +14,7 @@ export default function Footer() {
 
                 <div className="flex items-center gap-4 text-slate">
                     <a
-                        href="https://github.com/anvinbiju1-lab"
+                        href="https://github.com/anvinbiju-lab"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-glow-cyan hover:text-white transition-all transform hover:scale-110"

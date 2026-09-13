@@ -242,7 +242,7 @@ export default function Hero() {
 
                         {/* Social Icons */}
                         <div className="flex items-center gap-8">
-                            <a href="https://github.com/anvinbiju1-lab" target="_blank" className="text-text-secondary hover:text-white transition-all transform hover:scale-125">
+                            <a href="https://github.com/anvinbiju-lab" target="_blank" className="text-text-secondary hover:text-white transition-all transform hover:scale-125">
                                 <Github size={32} />
                             </a>
                             <a href="https://www.linkedin.com/in/anvin-biju" target="_blank" className="text-text-secondary hover:text-white transition-all transform hover:scale-125">

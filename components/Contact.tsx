@@ -82,7 +82,7 @@ export default function Contact() {
                             </div>
                             <div className="flex">
                                 <span className="text-cyan w-24 shrink-0">github</span>
-                                <span className="text-slate hover:underline hover:text-slate-light transition-colors"><a href="https://github.com/anvinbiju1-lab" target="_blank">: "github.com/anvinbiju1-lab"</a></span>
+                                <span className="text-slate hover:underline hover:text-slate-light transition-colors"><a href="https://github.com/anvinbiju-lab" target="_blank">: "github.com/anvinbiju-lab"</a></span>
                             </div>
                             <div className="flex">
                                 <span className="text-cyan w-24 shrink-0">location</span>
