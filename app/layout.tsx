@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://anvinbiju.indevs.in'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.anvinbiju.com'
 
 export const metadata: Metadata = {
     metadataBase: new URL(siteUrl),
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         description:
             'Official portfolio of Anvin Biju - Cybersecurity Engineer, Software Developer, and Ethical Hacker. Discover projects, security tools, and achievements.',
         url: siteUrl,
-        siteName: 'Anvin Biju Portfolio',
+        siteName: 'Anvin Biju',
         images: [
             {
                 url: '/anvin-biju-cybersecurity-engineer.png',
@@ -78,27 +78,37 @@ export const metadata: Metadata = {
 
 const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
-    name: 'Anvin Biju',
-    alternateName: ['AnvinBiju', 'Anvin Biju Portfolio'],
-    jobTitle: 'Cybersecurity Engineer & Software Developer',
-    description:
-        'Cybersecurity Engineer, Software Developer, and Ethical Hacker specializing in building security tools, web apps, and Android solutions.',
-    url: siteUrl,
-    image: `${siteUrl}/anvin-biju-cybersecurity-engineer.png`,
-    sameAs: [
-        'https://github.com/anvinbiju-lab',
-        'https://www.linkedin.com/in/anvin-biju',
-    ],
-    knowsAbout: [
-        'Cybersecurity',
-        'Ethical Hacking',
-        'Software Engineering',
-        'Web Development',
-        'Android Development',
-        'Next.js',
-        'React',
-        'TypeScript',
+    '@graph': [
+        {
+            '@type': 'WebSite',
+            name: 'Anvin Biju',
+            alternateName: ['Anvin Biju Portfolio', 'AnvinBiju'],
+            url: siteUrl,
+        },
+        {
+            '@type': 'Person',
+            name: 'Anvin Biju',
+            alternateName: ['AnvinBiju', 'Anvin Biju Portfolio'],
+            jobTitle: 'Cybersecurity Engineer & Software Developer',
+            description:
+                'Cybersecurity Engineer, Software Developer, and Ethical Hacker specializing in building security tools, web apps, and Android solutions.',
+            url: siteUrl,
+            image: `${siteUrl}/anvin-biju-cybersecurity-engineer.png`,
+            sameAs: [
+                'https://github.com/anvinbiju-lab',
+                'https://www.linkedin.com/in/anvin-biju',
+            ],
+            knowsAbout: [
+                'Cybersecurity',
+                'Ethical Hacking',
+                'Software Engineering',
+                'Web Development',
+                'Android Development',
+                'Next.js',
+                'React',
+                'TypeScript',
+            ],
+        },
     ],
 }
 

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const project = getProjectById(params.id)
     if (!project) return { title: "Project Not Found" }
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://anvinbiju.indevs.in"
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.anvinbiju.com"
 
     return {
         title: `${project.title} — ${project.subtitle}`,
