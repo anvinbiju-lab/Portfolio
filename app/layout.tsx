@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     authors: [{ name: 'Anvin Biju', url: siteUrl }],
     creator: 'Anvin Biju',
     publisher: 'Anvin Biju',
+    verification: {
+        other: {
+            'msvalidate.01': '13976CF355564093DD8C8D28C160B1C9',
+        },
+    },
     alternates: {
         canonical: siteUrl,
     },
