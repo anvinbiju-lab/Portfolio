@@ -64,6 +64,21 @@ export default function About() {
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                         System <span className="text-cyan">Overview</span>
                     </h2>
+                    <p className="max-w-3xl text-text-secondary text-lg leading-relaxed">
+                        I am Anvin Biju, a second-year B.Tech Computer Science and Engineering
+                        (Cybersecurity) student at Holy Grace Academy of Engineering and a
+                        self-taught software developer from Ernakulam, Kerala, India. I build
+                        Android apps, cybersecurity tools, web apps, desktop utilities, and
+                        browser extensions.
+                    </p>
+                    <p className="mt-4 text-text-secondary">
+                        Explore my work on{' '}
+                        <a href="https://github.com/anvinbiju-lab" className="text-cyan hover:underline">GitHub</a>
+                        {' '}or connect with me on{' '}
+                        <a href="https://www.linkedin.com/in/anvin-biju/" className="text-cyan hover:underline">LinkedIn</a>.
+                        {' '}My official portfolio is{' '}
+                        <a href="https://www.anvinbiju.com/" className="text-cyan hover:underline">www.anvinbiju.com</a>.
+                    </p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
